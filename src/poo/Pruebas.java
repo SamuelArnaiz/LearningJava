@@ -17,7 +17,9 @@ public class Pruebas {
 		System.out.println(trabajador2.devuelveDatos());
 		System.out.println(trabajador3.devuelveDatos());
 		System.out.println(trabajador4.devuelveDatos());
+		System.out.println(trabajador4.devuelveDatos());
 	}
+	
 
 }
 
