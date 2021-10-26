@@ -13,11 +13,13 @@ public class Pruebas {
 		trabajador1.cambiaSeccion("RRHH");
 		
 		
-		System.out.println(trabajador1.devuelveDatos());
-		System.out.println(trabajador2.devuelveDatos());
-		System.out.println(trabajador3.devuelveDatos());
-		System.out.println(trabajador4.devuelveDatos());
-		System.out.println(trabajador4.devuelveDatos());
+		System.out.println(trabajador1.devuelveDatos()+ "\n" + trabajador2.devuelveDatos()
+		+ "\n" + trabajador3.devuelveDatos()+ "\n" + trabajador4.devuelveDatos());
+		
+		System.out.println(Empleados.dameIdSiguiente());
+		
+		
+		
 	}
 	
 
@@ -43,6 +45,9 @@ class Empleados{
 	
 	public String devuelveDatos() {
 		return "El nombre es: " + nombre + ", la sección es " + seccion + " y el Id = "+ Id;
+	}
+	public static String dameIdSiguiente() {
+		return "El IdSiguiente es: " + IdSiguiente;
 	}
 	
 	
